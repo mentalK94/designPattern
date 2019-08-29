@@ -9,6 +9,7 @@
 ## 일반적인 싱글턴 패턴
 ![캡처](https://user-images.githubusercontent.com/31653025/63952879-45c8e680-cabb-11e9-80b6-3ddea7d4fd3b.PNG)
 [그림 1]
+
 위 코드는 싱글턴 패턴 사용시 가장 많이 사용되는 코드이다. 일반적인 상황에서는 위 그림과 같이 Printer 클래스처럼 객체를 하나의 인스턴스로 만들어 사용해도 무방하다.
 
 ## 멀티스레드 사용시 문제점
@@ -27,3 +28,8 @@
 ### solution 2. 정적변수 사용
 - (코드) private static Printer printer = new Printer(); 이렇게 코드를 사용하여 printer라는 정적변수를 이용한다
 - (주의점) 미리 생성해놓고 사용될 때 가져다 사용하는 방식으로 사용하지 않아도 메모리 점유하고 있으므로 메모리의 낭비가 있다
+
+## 정적클래스 사용
+- 08/30 comming soon!
+## LazyHolder
+- 08/30 comming soon!
