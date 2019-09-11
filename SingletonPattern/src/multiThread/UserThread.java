@@ -6,7 +6,7 @@ public class UserThread extends Thread {
 	}
 	
 	public void run() {
-		//Printer printer = Printer.getInstance();
-		Printer.print(Thread.currentThread().getName() + "print using " + "."); 
+		Printer printer = Printer.getInstance();
+		printer.print(Thread.currentThread().getName() + "print using " + printer.toString() + "."); 
 	}
 }

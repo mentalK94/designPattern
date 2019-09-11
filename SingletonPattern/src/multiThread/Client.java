@@ -1,7 +1,7 @@
 package multiThread;
 
 public class Client {
-	private static final int THREAD_NUM = 100000;
+	private static final int THREAD_NUM = 5;
 	public static void main(String[] args) {
 		
 		long start = System.currentTimeMillis();
