@@ -8,6 +8,7 @@
 - HyundaiMotor뿐만 아니라 Samsung, LG모터도 관리해야하는 경우 코드 추가시 중복코드가 발생한다.
 - 따라서 아래 그림과 같이 Motor라는 상위클래스를 만들어 상속받아 사용한다.
 ![templateMethod-Diagram1](https://user-images.githubusercontent.com/31653025/72790792-92cf7400-3c79-11ea-9cdb-6a689b902d3b.PNG)
+[다이어그램1]
 
 ### 부분적으로 중복되는 경우
 - 현상
@@ -22,7 +23,8 @@
 - 위 코드들을 보면 move***Motor()를 제외하고는 코드가 중복된다.
 
 - 해결책
-![templateMethod-Diagram2](https://user-images.githubusercontent.com/31653025/72792912-1b034880-3c7d-11ea-867b-625b631cb2af.PNG)
+![templateMethod-Diagram2](https://user-images.githubusercontent.com/31653025/72793746-33c02e00-3c7e-11ea-9879-0de14c3d9eef.PNG)
+[다이어그램2]
 - 위에 다이어그램과 같이 추상클래스에서 move함수를 추상메서드로 구현한다.
 
 ## 언제 사용하는가?
