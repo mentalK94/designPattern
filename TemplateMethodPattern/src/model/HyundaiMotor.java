@@ -17,22 +17,7 @@ public class HyundaiMotor extends Motor{
 		super(door);
 	}
 	
-	private void moveHyundaiMotor(Direction direction) {
+	protected void moveMotor(Direction direction) {
 		// TODO: Hyundai Motor를 구동시킴
-	}
-
-	public void move(Direction direction) {
-		MotorStatus motorStatus = getMotorStatus();
-		if(motorStatus == MotorStatus.MOVING)
-			return;
-		
-		DoorStatus doorStatus = door.getDoorStatus();
-		if(doorStatus == DoorStatus.OPENED)
-			door.close();
-		
-		// motor와 door체크 후 이상 없으면 작업수행
-		// 작업 : moveHyundaiMotor메서드 수행 및 motorStatus에 status기록
-		moveHyundaiMotor(direction);
-		setMotorStatus(MotorStatus.MOVING);
 	}
 }
