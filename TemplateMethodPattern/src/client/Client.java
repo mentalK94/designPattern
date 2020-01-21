@@ -1,5 +1,6 @@
 package client;
 
+import enumeration.Direction;
 import model.Door;
 import model.HyundaiMotor;
 

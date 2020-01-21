@@ -1,7 +1,7 @@
 /*
- * name        : HyundaiMotor.java
- * description : Hyundai motor model
- * date        : 2019.11.07
+ * name        : SamsungMotor.java
+ * description : Samsung motor model
+ * date        : 2020.01.21
  * writer      : hansol kim
  */
 
@@ -11,18 +11,18 @@ import enumeration.Direction;
 import enumeration.DoorStatus;
 import enumeration.MotorStatus;
 
-public class HyundaiMotor {
+public class SamsungMotor {
 
 	private Door door;
 	private MotorStatus motorStatus;
 	
-	public HyundaiMotor(Door door) {
+	public SamsungMotor(Door door) {
 		this.door = door;
 		motorStatus = MotorStatus.STOPPED;
 	}
 	
-	private void moveHyundaiMotor(Direction direction) {
-		// TODO: Hyundai Motor를 구동시킴
+	private void moveSamsungMotor(Direction direction) {
+		// TODO: Samsung Motor를 구동시킴
 	}
 	
 	public MotorStatus getMotorStatus() {
