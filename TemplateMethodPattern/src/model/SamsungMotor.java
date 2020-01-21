@@ -11,28 +11,16 @@ import enumeration.Direction;
 import enumeration.DoorStatus;
 import enumeration.MotorStatus;
 
-public class SamsungMotor {
+public class SamsungMotor extends Motor{
 
-	private Door door;
-	private MotorStatus motorStatus;
-	
 	public SamsungMotor(Door door) {
-		this.door = door;
-		motorStatus = MotorStatus.STOPPED;
+		super(door);
 	}
 	
 	private void moveSamsungMotor(Direction direction) {
 		// TODO: Samsung Motor를 구동시킴
 	}
-	
-	public MotorStatus getMotorStatus() {
-		return motorStatus;
-	}
 
-	private void setMotorStatus(MotorStatus motorStatus) {
-		this.motorStatus = motorStatus;
-	}
-	
 	public void move(Direction direction) {
 		MotorStatus motorStatus = getMotorStatus();
 		if(motorStatus == MotorStatus.MOVING)

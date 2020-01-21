@@ -11,26 +11,14 @@ import enumeration.Direction;
 import enumeration.DoorStatus;
 import enumeration.MotorStatus;
 
-public class LGMotor {
-	
-	private Door door;
-	private MotorStatus motorStatus;
+public class LGMotor extends Motor {
 	
 	public LGMotor(Door door) {
-		this.door = door;
-		motorStatus = MotorStatus.STOPPED;
+		super(door);
 	}
 	
 	private void moveLGMotor(Direction direction) {
 		// TODO: LG Motor를 구동시킴
-	}
-	
-	public MotorStatus getMotorStatus() {
-		return motorStatus;
-	}
-
-	private void setMotorStatus(MotorStatus motorStatus) {
-		this.motorStatus = motorStatus;
 	}
 	
 	public void move(Direction direction) {
