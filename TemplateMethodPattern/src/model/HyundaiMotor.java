@@ -29,5 +29,10 @@ public class HyundaiMotor extends Motor{
 		DoorStatus doorStatus = door.getDoorStatus();
 		if(doorStatus == DoorStatus.OPENED)
 			door.close();
+		
+		// motor와 door체크 후 이상 없으면 작업수행
+		// 작업 : moveHyundaiMotor메서드 수행 및 motorStatus에 status기록
+		moveHyundaiMotor(direction);
+		setMotorStatus(MotorStatus.MOVING);
 	}
 }
