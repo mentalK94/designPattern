@@ -26,8 +26,8 @@
 ![templateMethod-Diagram2](https://user-images.githubusercontent.com/31653025/72793746-33c02e00-3c7e-11ea-9879-0de14c3d9eef.PNG)
 [다이어그램2]
 - 위에 다이어그램과 같이 추상클래스에서 move메서드를 구현한다.
-- 여기서 <b>move메서드</b>를 <b>Template Method</b>라고 부르며 moveMotor를 <b>moveMotor메서드</b>를 <b>Primitive Method</b>또는 <b>Hook Method</b>라 부른다.
-- <b>Primitive Method</b>또는 <b>Hook Method</b>를 구현하는 클래스를 Concrete클래스라 부른다.
+- 여기서 <b>move메서드</b>를 <b>Template Method</b>라고 부르며 <b>moveMotor메서드</b>를 <b>Primitive Method</b>또는 <b>Hook Method</b>라 부른다.
+- <b>Primitive Method</b>또는 <b>Hook Method</b>를 구현하는 클래스를 <b>Concrete클래스</b>라 부른다.
 
 ## 언제 사용하는가?
 - 전체적으로는 동일하면서 부분적으로는 다른 구문으로 구성된 메서드의 코드 중복을 최소화 할 때 유용
