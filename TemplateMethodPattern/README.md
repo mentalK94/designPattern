@@ -7,7 +7,7 @@
 ### 코드확장 시 문제점
 - HyundaiMotor뿐만 아니라 Samsung, LG모터도 관리해야하는 경우 코드 추가시 중복코드가 발생한다.
 - 따라서 아래 그림과 같이 Motor라는 상위클래스를 만들어 상속받아 사용한다.
-![templateMethod-Diagram1](https://user-images.githubusercontent.com/31653025/72789885-dde88780-3c77-11ea-9c24-8961464eb0e4.PNG)
+![templateMethod-Diagram1](https://user-images.githubusercontent.com/31653025/72790792-92cf7400-3c79-11ea-9cdb-6a689b902d3b.PNG)
 
 ## 언제 사용하는가?
 - 전체적으로는 동일하면서 부분적으로는 다른 구문으로 구성된 메서드의 코드 중복을 최소화 할 때 유용
