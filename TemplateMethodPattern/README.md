@@ -22,7 +22,8 @@
 - 위 코드들을 보면 move***Motor()를 제외하고는 코드가 중복된다.
 
 - 해결책
-
+![templateMethod-Diagram2](https://user-images.githubusercontent.com/31653025/72792912-1b034880-3c7d-11ea-867b-625b631cb2af.PNG)
+- 위에 다이어그램과 같이 추상클래스에서 move함수를 추상메서드로 구현한다.
 
 ## 언제 사용하는가?
 - 전체적으로는 동일하면서 부분적으로는 다른 구문으로 구성된 메서드의 코드 중복을 최소화 할 때 유용
