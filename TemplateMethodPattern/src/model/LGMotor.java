@@ -8,8 +8,6 @@
 package model;
 
 import enumeration.Direction;
-import enumeration.DoorStatus;
-import enumeration.MotorStatus;
 
 public class LGMotor extends Motor {
 	
@@ -19,6 +17,7 @@ public class LGMotor extends Motor {
 	
 	protected void moveMotor(Direction direction) {
 		// TODO: LG Motor를 구동시킴
+		System.out.println("LG Motor 구동");
 	}
 	
 }

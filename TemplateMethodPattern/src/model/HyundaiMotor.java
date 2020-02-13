@@ -8,8 +8,6 @@
 package model;
 
 import enumeration.Direction;
-import enumeration.DoorStatus;
-import enumeration.MotorStatus;
 
 public class HyundaiMotor extends Motor{
 
@@ -19,5 +17,6 @@ public class HyundaiMotor extends Motor{
 	
 	protected void moveMotor(Direction direction) {
 		// TODO: Hyundai Motor를 구동시킴
+		System.out.println("Hyundai Motor 구동");
 	}
 }

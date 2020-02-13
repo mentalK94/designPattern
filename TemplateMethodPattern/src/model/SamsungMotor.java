@@ -8,8 +8,6 @@
 package model;
 
 import enumeration.Direction;
-import enumeration.DoorStatus;
-import enumeration.MotorStatus;
 
 public class SamsungMotor extends Motor{
 
@@ -19,5 +17,6 @@ public class SamsungMotor extends Motor{
 	
 	protected void moveMotor(Direction direction) {
 		// TODO: Samsung Motor를 구동시킴
+		System.out.println("Samsung Motor 구동");
 	}
 }
