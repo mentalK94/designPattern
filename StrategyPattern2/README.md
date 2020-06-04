@@ -41,3 +41,7 @@
 - Context인 **Robot**에서 **Strategy**를 사용할 수 있도록 **setter메소드**가 필요하다.
 - 이렇게 변경된 구조는 향후 등장할 이동 방식과 공격 방식의 변화뿐만 아니라 현재 변화도 잘 처리할 수 있게 된다.
 - Strategy Interface가 변화에 대한 일종의 **방화벽**역할을 수행하여 Robot클래스의 변경을 차단한다.(OCP만족하는 설계)
+
+## 참조
+- https://gmlwjd9405.github.io/2018/07/06/strategy-pattern.html
+- Java 객체지향 디자인패턴(채흥석, 정인상 저)
