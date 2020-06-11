@@ -7,7 +7,7 @@ public class Light {
 	private LightState lightState; // ON, OFF
 	
 	public Light() {
-		lightState = new OffState(); // √ ±‚ OFF
+		lightState = OffState.getInstance();
 	}
 	
 	public void onBtnPushed() {
