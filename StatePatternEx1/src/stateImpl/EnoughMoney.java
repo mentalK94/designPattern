@@ -35,6 +35,10 @@ public class EnoughMoney implements VendingMachineState{
 			machine.setMachineState(NoEnoughMoney.getInstance());
 		}
 		
+		if(machine.getDrink().getStock() < 1) {
+			machine.setMachineState(NoEnoughDrink.getInstance());
+		}
+		
 		System.out.println("현재 남은 금액 : " + machine.getRetainedMoney());
 	}
 
