@@ -18,10 +18,11 @@ public class DataSheetView {
 	}
 	
 	private void displayScores(List<Integer> record, int viewCount) {
-		System.out.println(viewCount + " entries");
-		for(int i = 0; i<viewCount; i++) {
-			System.out.println(record.get(i));
+		System.out.print(viewCount + " entries : ");
+		for(int i = 0; i<viewCount && i<record.size(); i++) {
+			System.out.print(record.get(i) + " ");
 		}
+		System.out.println();
 	}
 
 }
