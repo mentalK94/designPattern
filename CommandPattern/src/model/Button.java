@@ -1,13 +1,17 @@
 package model;
 
+import command.Command;
+
 public class Button {
-	private Lamp lamp;
+	private Command command;
 	
-	public Button(Lamp lamp) {
-		this.lamp = lamp;
+	public Button() {}
+	
+	public void setCommand(Command command) {
+		this.command = command;
 	}
 	
 	public void pressed() {
-		lamp.turnOn();
+		command.execute();
 	}
 }
