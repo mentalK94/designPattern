@@ -1,5 +1,8 @@
 # Design Pattern
 
+https://img.shields.io/badge/SW-DesignPattern-green
+https://img.shields.io/badge/blog-hansol's%20%EA%B0%9C%EB%B0%9C%20%EB%B8%94%EB%A1%9C%EA%B7%B8%3B-yellow
+
 ### design pattern 
 * [스트래티지 패턴](https://mentalk94.github.io/designpattern/2020/06/11/StrategyPattern.html)
 * [싱글턴 패턴](https://mentalk94.github.io/designpattern/2020/06/10/SingletonPattern.html)
