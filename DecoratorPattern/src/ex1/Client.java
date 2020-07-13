@@ -19,9 +19,5 @@ public class Client {
 		// 기본 도로 + 차선 표시 + 교차로 표시
 		Display roadWithLaneAndCrossing = new CrossingDecorator(new LaneDecorator(roadDisplay));
 		roadWithLaneAndCrossing.draw();
-		
-		
-		
 	}
-
 }

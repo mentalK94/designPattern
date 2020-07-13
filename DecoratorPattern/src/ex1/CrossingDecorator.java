@@ -15,5 +15,4 @@ public class CrossingDecorator extends DisplayDecorator {
 	private void drawCrossing() {
 		System.out.println("교차로 표시");
 	}
-
 }

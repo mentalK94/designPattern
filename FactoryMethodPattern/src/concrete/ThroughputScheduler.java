@@ -12,6 +12,16 @@ import framework.ElevatorScheduler;
 
 public class ThroughputScheduler implements ElevatorScheduler {
 
+	private static ThroughputScheduler throughputScheduler;
+	
+	public static ThroughputScheduler getInstance() {
+		if(throughputScheduler == null) {
+			throughputScheduler = new ThroughputScheduler();
+		}
+		
+		return throughputScheduler;
+	}
+	
 	public int selectElevator(ElevatorManager elevatorManager, int destination, Direction direction) {
 		// TODO Auto-generated method stub
 		return 0;
